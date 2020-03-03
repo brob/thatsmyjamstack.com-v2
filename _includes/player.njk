@@ -1,0 +1,23 @@
+{% set episodeTitle = episode.data.title or title %}
+{% set episodeDescription = episode.data.description or description %}
+{% set episodeAudio = episode.data.audioFile or audioFile %}
+{% set episodeUrl = episode.url %}
+
+
+<button class="player-button">
+    {{ "/assets/images/play-button.svg" | svgContents | safe }}
+</button>
+<div class="episode-info stack">
+    <h3 class="banner__label">Latest Episode</h3>
+    <h2 class="episode-headline"><a href="{{ episodeUrl }}">{{ episodeTitle }}</a></h2>
+    <p class="episode-description">{{ episodeDescription }}</p>
+    <figure class="banner-player stack--tight">
+    <figcaption class="player-title">Listen to this week's episode</figcaption>
+    <audio
+        controls
+        src="{{ episodeAudio }}">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+</div>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1367" height="1546" viewBox="0 0 1367 1546">
+  <defs>
+    <clipPath id="clip-Artboard_36">
+      <rect width="1367" height="1546"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_36" data-name="Artboard – 36" clip-path="url(#clip-Artboard_36)">
+    <g id="Group_132" data-name="Group 132" transform="translate(-1482.084 15.551)">
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="680" cy="680" r="680" transform="translate(1486.084 -15.551)" fill="#ffe819"/>
+    </g>
+    <g id="letters" transform="translate(-30.373 -247.891)">
+      <g id="JAM_Group_" data-name="JAM Group[" transform="translate(158.363 395.497)">
+        <text id="stack" transform="translate(495.009 1279.435)" font-size="203" font-family="LeagueGothic-Regular, League Gothic" letter-spacing="0.02em"><tspan x="0" y="0">stack</tspan></text>
+        <path id="Path_6" data-name="Path 6" d="M0,1175.729,180.881,813.966V113.051L316.542,45.22V859.187L214.8,1062.678l-11.305,11.305Zm226.1-90.441L768.746,0V949.628H610.475L542.644,813.966h90.441v-226.1L440.9,972.238l-11.305,11.305Zm994.848-45.22-135.661-67.831V633.085l-67.831,135.661L949.627,633.085V949.628H813.966V45.22L1017.458,452.2,1220.95,45.22Z" transform="translate(-121.973 202.41)" fill="#f25858"/>
+      </g>
+      <text id="That_s_My" data-name="That’s My" transform="translate(39.373 579.891)" font-size="355" font-family="LeagueGothic-Regular, League Gothic" letter-spacing="-0.002em"><tspan x="0" y="0">That’s My</tspan></text>
+    </g>
+  </g>
+</svg>

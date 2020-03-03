@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="{{ description }}">
+
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% if socialImage %}<meta property="og:image" content="{{ site.url }}{{ socialImage }}" />{% endif %}
+
+    
+
+</head>
+<body>
+    
+    <header class="site-head ">
+        <nav class="site-nav [ stack ] [ cluster align-center justify-center container ]">
+
+            <a class="nav-link logo" href="/">{{ "/assets/images/logo.svg" | svgContents | safe }}</a>
+
+            <ul class="[ cluster ]">
+                <li class="nav-item"><a class="nav-link" href="/episodes">Episodes</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-body container pull-hard [ stack stack--large ]">
+        {% block bannerContent %}
+            <h1>{{ title }}</h1>
+            <p>{{ description }}</p>
+
+        {% endblock bannerContent %}
+
+    
+
+
+    {% block content %}
+        {{ content | safe }}
+    {% endblock content %}
+
+    </main>
+
+</body>
+</html>

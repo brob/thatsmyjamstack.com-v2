@@ -1,0 +1,16 @@
+{% extends 'templates/base.njk' %}
+
+{% block bannerContent %}
+    {% include "player.njk" %}
+{% endblock bannerContent %}
+    
+
+
+{% block content %}
+
+
+    {{ content | safe}}
+
+
+
+{% endblock content %}

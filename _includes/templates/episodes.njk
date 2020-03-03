@@ -1,0 +1,14 @@
+{% extends 'templates/base.njk' %}
+
+
+{% block content %}
+    <section class="episodes variable-grid">
+        {% for episode in collections.episodes | slice(1,7) %}
+            <article class="episode card [ stack stack--small ]">
+                <img class="card__image" src="{{ episode.data.socialImage }}" alt="{{ episode.data.title }} Promo Image">
+                <h3 class="card__headline"><a href="{{ episode.url }}">{{ episode.data.title }}</a></h3>
+                <p class="card__description">{{ episode.data.description }}</p>
+            </article>
+        {% endfor %}
+    </section>  
+{% endblock %}
