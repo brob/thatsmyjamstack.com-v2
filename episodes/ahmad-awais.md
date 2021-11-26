@@ -7,8 +7,6 @@ audioFile: https://pinecast.com/listen/55bff092-3959-4256-8afd-dbb5f2a57438.mp3
 description: In today's episode we're talking with Ahmad Awais. Ahmad is a developer relations engineer at Cloudinary, a Google Developer expert and a prolific teacher. 
 socialImage: /images/ahmad-awais.png
 ---
-## Tags
-{{ tags }}
 
 ## Quick show notes
 

@@ -1,12 +1,12 @@
-{% set episodeTitle = episode.data.title or title %}
-{% set episodeDescription = episode.data.description or description %}
-{% set episodeAudio = episode.data.audioFile or audioFile %}
-{% set episodeUrl = episode.url %}
-
+{% macro player(episodeTitle, 
+    episodeDescription, 
+    episodeAudio,
+    episodeUrl
+) %}
 
 <div class="episode-info stack">
     <h3 class="banner__label">Latest Episode</h3>
-    <h2 class="episode-headline">{% if tags note contain "episode" %}<a href="{{ episodeUrl }}">{{ episodeTitle }}</a></h2>
+    <h2 class="episode-headline">{% if url %}<a href="{{ episodeUrl }}">{% endif %}{{ episodeTitle }}{% if url %}</a>{% endif %}</h2>
     <p class="episode-description">{{ episodeDescription }}</p>
     <figure class="banner-player stack--tight">
     <figcaption class="player-title">Listen to this week's episode</figcaption>
@@ -18,3 +18,5 @@
     </audio>
 </figure>
 </div>
+
+{% endmacro %}

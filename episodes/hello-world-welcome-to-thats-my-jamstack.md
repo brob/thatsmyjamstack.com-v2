@@ -5,6 +5,8 @@ tags:
   - episode
 audioFile: https://pinecast.com/listen/a9a1f9f1-8114-47de-9431-984901aae72b.mp3
 description: Hello World, my name is Bryan Robinson and I love love, love the JAMstack. I've always enjoyed working on static sites, quick for users, they're quick to build. And as it turns out, they're not that static anymore. I'm on a quest to find more gems, hackers, and they get their stories. That's why I've created That's My JAM...stack. This podcast is all about the passions of the tech community
+socialImage: /images/placeholder.png
+
 ---
 
 ## Transcript

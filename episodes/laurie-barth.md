@@ -5,7 +5,7 @@ tags:
   - episode
 audioFile: https://pinecast.com/listen/66cbdf4e-7996-4af4-9f38-185b7d3087c0.mp3
 description: In today's episode, we're speaking with the amazing software engineer, blogger and educator Laurie Barth!
-socialImage: /images/laurie-barth.png
+socialImage: /images/placeholder.png
 ---
 
 ## Quick show notes

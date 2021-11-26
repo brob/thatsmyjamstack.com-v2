@@ -1,16 +1,18 @@
 {% extends 'templates/base.njk' %}
 
 {% block bannerContent %}
-    {% include "player.njk" %}
+{% from "macros/player.njk" import player %}
+
+    {{ player(title, description, audioFile, false) }}
 {% endblock bannerContent %}
     
 
 
 {% block content %}
 
-
+    <div class="stack">
     {{ content | safe}}
-
+    </div>
 
 
 {% endblock content %}

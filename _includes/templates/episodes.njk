@@ -2,8 +2,10 @@
 
 
 {% block content %}
+        {{ content | safe }}
+
     <section class="episodes variable-grid">
-        {% for episode in collections.episodes | slice(1,7) %}
+        {% for episode in collections.episodes %}
             <article class="episode card [ stack stack--small ]">
                 <img class="card__image" src="{{ episode.data.socialImage }}" alt="{{ episode.data.title }} Promo Image">
                 <h3 class="card__headline"><a href="{{ episode.url }}">{{ episode.data.title }}</a></h3>
