@@ -16,7 +16,7 @@
         <h2 class="full-span section-title">Next Episodes</h2>        
         {% for episode in collections.episodes | slice(1,7) %}
             <article class="episode card [ stack stack--small ]">
-                <img class="card__image" src="{{ episode.data.socialImage }}" alt="{{ episode.data.title }} Promo Image">
+                <a href="{{ episode.url }}" class="card__image"><img class="card__image" src="{{ episode.data.socialImage }}" alt="{{ episode.data.title }} Promo Image"></a>
                 <h3 class="card__headline"><a href="{{ episode.url }}">{{ episode.data.title }}</a></h3>
                 <p class="card__description">{{ episode.data.description }}</p>
             </article>
