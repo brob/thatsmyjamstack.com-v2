@@ -1,4 +1,5 @@
 const svgContents = require("eleventy-plugin-svg-contents");
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 
 module.exports = function(eleventyConfig) {
@@ -7,6 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/js");
   eleventyConfig.addPassthroughCopy({ "assets/images": "images" });
   eleventyConfig.addPlugin(svgContents);
+  eleventyConfig.addPlugin(rssPlugin);
 
 
 
