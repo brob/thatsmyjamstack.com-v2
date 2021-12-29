@@ -5,6 +5,7 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets/css");
+  eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("assets/js");
   eleventyConfig.addPassthroughCopy({ "assets/images": "images" });
   eleventyConfig.addPlugin(svgContents);
