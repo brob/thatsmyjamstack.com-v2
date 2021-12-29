@@ -19,7 +19,7 @@ socialImage: /images/aisha-blake.png
 ### Other things mentioned
 
 * [Gatsby](http://gatsbyjs.org)
-* [<Title of Conf>](https://www.titleofconf.org/)
+* [Title of Conf](https://www.titleofconf.org/)
 * [self.conference](https://selfconference.org/)
 
 
