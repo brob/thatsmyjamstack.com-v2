@@ -9,7 +9,7 @@ description: This week, we have a very special guest. I'm pleased to introduce t
 socialImage: /images/placeholder.png
 ---
 
-* Our Guest: [Salma Alam-Naylor](hthttps://whitep4nth3r.com/)
+* Our Guest: [Salma Alam-Naylor](https://whitep4nth3r.com/)
 * What she'd like for you to see: [Unbreak.tech](https://unbreak.tech/)
 * Her JAMstack Jams: All the amazing rendering options!
 * Her musical Jam: [Move On by Emily Vaughn Grant](https://open.spotify.com/track/5jnoK2o5jY46qhPR30RepX) (pay special attention at 1:47 in the track for the double tracked bass!)
