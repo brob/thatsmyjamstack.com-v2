@@ -73,7 +73,7 @@ And I've learned so much like, I never would have thought like, when I was build
 ### Bryan Robinson  11:00  
 And you can get it live in any number of ways too, right? You can if you're making a content driven thing to begin with, you don't need a CMS. But yes, it takes like a few lines of code tweaked. And your next js, your 11ty, your whatever static site generator, right, like just ingest from somewhere else. And it's good to go? 
 
-Unknown Speaker  11:19  
+### Salma Alam-Naylor  11:19  
 Yes. It's very exciting. It's very exciting. Like imagine. So this has happened in the all in the last like six years since like, 2015, when the Jamstack kind of first came about, like what's going to happen in the next six years, and the next six years, and the next six years, I actually did. At the Contentful, fast forward conference at the beginning of November, I actually did the keynote with Stephan Judas, about the last 10 years of web development and how Jamstack came about to solve the problems of old school monolith solutions where back end and front end were divided, where everyone was reinventing the wheel the whole time. And the Jamstack has really come to like, solve these problems, where as a front end developer, you don't need all this back end nonsense anymore. You're and and because of that, it's like enabled developers, it's increased their skills is giving them the power is empowering developers to to build stuff that they couldn't have even dreamed of before. And I think that's really, really, like wonderful for the future. 
 
 ### Salma Alam-Naylor  12:24  
