@@ -9,6 +9,11 @@ description: This week, we have a very special guest. I'm pleased to introduce t
 socialImage: /images/placeholder.png
 ---
 
+* Our Guest: [Salma Alam-Naylor](hthttps://whitep4nth3r.com/)
+* What she'd like for you to see: [Unbreak.tech](https://unbreak.tech/)
+* Her JAMstack Jams: All the amazing rendering options!
+* Her musical Jam: [Move On by Emily Vaughn Grant](https://open.spotify.com/track/5jnoK2o5jY46qhPR30RepX) (pay special attention at 1:47 in the track for the double tracked bass!)
+
 ## Transcript
 ### Bryan Robinson  0:14  
 Hello Hello everyone. Welcome to another JAM PACKED Jamstack episode. This is That's My Jamstack the podcast where we ask the best question since sliced bread. What is your jam in the Jamstack? I'm your host Bryan Robinson and this week, we have a very special guest. I'm pleased to introduce the winner of the Jamstack community creator award from Jamstack Conf 2021 Salma Alam-Naylor. Salma helps developers build stuff, learn things and love what they do. She does that via her Twitch streams, YouTube channel and blog. One quick update for the episode, we recorded this prior to Salma joining the Netlify team. So while we mentioned Contentful, in various parts of the episode, Sam is now on the DX team at Netlify.
