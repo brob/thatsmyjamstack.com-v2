@@ -5,8 +5,8 @@
 ) %}
 
 <div class="episode-info stack">
-    <h3 class="banner__label">Latest Episode</h3>
-    <h2 class="episode-headline">{% if url %}<a href="{{ episodeUrl }}">{% endif %}{{ episodeTitle }}{% if url %}</a>{% endif %}</h2>
+    {% if episodeUrl %}<h3 class="banner__label">Latest Episode</h3>{% endif %}
+    <h2 class="episode-headline">{% if episodeUrl %}<a href="{{ episodeUrl }}">{% endif %}{{ episodeTitle }}{% if episodeUrl %}</a>{% endif %}</h2>
     <p class="episode-description">{{ episodeDescription }}</p>
     <figure class="banner-player stack--tight">
     <figcaption class="player-title">Listen to this week's episode</figcaption>
